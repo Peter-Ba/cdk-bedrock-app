@@ -5,7 +5,7 @@ import { CdkBedrockAppStack } from "./cdk-bedrock-app-stack";
 
 /**
  * This deploys a Cloudformation Stack for configuring AWS CodePipeline.
- * This is a relatively simplistic CI/CD Pipeline just to make it more managable.
+ * This is a relatively simplistic CI/CD Pipeline just to make it more manageable.
  */
 
 export class CdkPipelineStack extends cdk.Stack {
@@ -28,7 +28,7 @@ export class CdkPipelineStack extends cdk.Stack {
      * This CodePipeline does a few steps in the code below
      * 1. It sources the code from Github for you (via a webhook), pointed to that repo and that branch.
      * NOTE: Make sure you update your repo name and point to the correct branch.
-     * 2. It runs the `commands` inside the CI/CD Pipeline Shell (similar to your Macbook terminal)
+     * 2. It runs the `commands` inside the CI/CD Pipeline Shell (similar to your MacBook terminal)
      * 3. Check out the root package.json to see the custom scripts, just to make life easier.
      */
 
